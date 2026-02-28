@@ -1,0 +1,164 @@
+@font-face {
+  font-family: ComicSans;
+  src: url(/file/comicbd.ttf);
+  font-weight: bold;
+}
+
+body {
+    font-family: ComicSans, Comic Sans MS, sans-serif;
+    color: beige;
+    background-image: url('/stars.gif');
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+table {
+    color: #FF9A14;
+}
+
+th {
+    border: #fff 1px solid;
+    vertical-align: top;
+}
+
+td {
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 14px;
+}
+
+li {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ul {
+    margin-left: 0px;
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: cyan;
+}
+a:hover {
+    color: white;
+}
+
+img {
+    border: #fff 1px solid;
+}
+
+th.main table, th.main div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main {
+    width: 852px;
+    height: 100%;
+    background: #200840;
+    color: #FF9A14;
+}
+
+.side {
+    width: 160px;
+    height: 100%;
+    border: none;
+}
+
+.features {
+    width: 95%;
+    height: 240px;
+    border-collapse: collapse;
+    border: none;
+    padding: none;
+}
+
+.header {
+    width: 1026px;
+    height: 200px;
+    border: #fff 1px solid;
+    background-image: url('string.gif');
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 1030px;
+}
+
+.clear {
+    border-collapse: collapse;
+    border: none;
+    padding: none;
+}
+
+.blog {
+    width: 682px;
+    height: 140px;
+    border: #fbf 1px solid;
+    font-size: 12px;
+}
+
+.blogpost {
+    border: #fff 1px solid;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.title {
+    color: #f4f3b0;
+    font-size: 48px;
+}
+
+.music-review {
+    width: 680px;
+    height: 180px;
+    border: #fbf 1px solid;
+}
+
+#service {
+    color: PaleTurquoise;
+}
+
+#service:hover {
+    color: white;
+}
+
+#dotted_box {
+    border: dotted 2px white;
+    width: 832px;
+}
+
+#quote {
+    border: dotted 2px white;
+    width: 416px;
+    color: MistyRose;
+}
+
+#review-cover {
+    width: 140px;
+    height: 140px;
+}
